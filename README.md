@@ -12,7 +12,8 @@ The most amazing Snake game ever
 
 ## Przykład jak to robić z konsoli(linia poleceń):
 Żeby pobrać projekt na swój komputer, robimy sobie folder na kompie, następnie odpalamy konsole gita w tym katalogu (klikamy prawym w tym katalogu i wybieramy "Open git bash here"
-Następnie wpisujemy `git clone https://github.com/Re-git/snakegame.git`
+Następnie wpisujemy 
+`git clone https://github.com/Re-git/snakegame.git`
 Ta komenda pobrała całe repozytorium na twoj komputer.
 
 Jeśli chcesz rozpocząć pracę nad nową funkcjonalnością (dopisać trochę kodu)

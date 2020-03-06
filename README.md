@@ -1,6 +1,12 @@
 # Snake
 The most amazing Snake game ever
 
+## Tutoriale i dokumentacja
+
+1. [Coding Train](https://www.youtube.com/watch?v=-f0WEitGmiw&list=PLRqwX-V7Uu6YB9x6f23CBftiyx0u_5sO9&index=1) ma sporo sporą bibliotekę filmów tłumaczących w bardzo przystępny sposób jak zrobić przeróżne efekty przy pomocy processing (animacje, dzwieki, fizyka, sztuczna inteligencja, multiplayer itd)
+2. https://processing.org/tutorials/
+3. [Referencja](https://processing.org/reference/) spis wszystkich dostepnych funkcji w bibliotece Processing wraz z przykładami użycia
+
 ## Wymagania do pracy nad projektem:
 
 1. Zainstaluj Processing: https://processing.org/download/

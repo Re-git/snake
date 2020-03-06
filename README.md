@@ -1,2 +1,2 @@
-# snake
-Snake game
+# Snake
+The most amazing Snake game ever

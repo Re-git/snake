@@ -44,30 +44,14 @@ void draw()
   }
 
 //dodałem border collision ~Kacper
-  if (snake.position.x < 0){
-    fill(255);
-    textSize(100);
-    textAlign(CENTER);
-    text("GAME OVER", width/2, height/2);
-    noLoop();
-}  else if (snake.position.x > 600){
-  fill(255);
-    textSize(100);
-    textAlign(CENTER);
-    text("GAME OVER", width/2, height/2);
-    noLoop();
+if (snake.position.x < 0){
+  game_over();
+}  else if (snake.position.x > width){
+  game_over();
 }  else if (snake.position.y < 0){
-  fill(255);
-    textSize(100);
-    textAlign(CENTER);
-    text("GAME OVER", width/2, height/2);
-    noLoop();
-}  else if (snake.position.y > 600){
-  fill(255);
-    textSize(100);
-    textAlign(CENTER);
-    text("GAME OVER", width/2, height/2);
-    noLoop();
+  game_over();
+}  else if (snake.position.y > width){
+  game_over();
 }
   
   
@@ -96,4 +80,13 @@ void keyPressed()
   } else {
     print("hello\n");
   }
+}
+
+void game_over()
+{
+    fill(255);
+    textSize(100);
+    textAlign(CENTER);
+    text("GAME OVER", width/2, height/2);
+    noLoop();
 }

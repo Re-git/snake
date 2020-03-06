@@ -36,3 +36,7 @@ Ostatnim krokiem jest poproszenie o tzw. pull request czyli dodanie zmian do ga�
 4. Na stronie git kliknij add pull request
 
 Twoja prośba pojawi się w zakładce pull requests i będzie czekała na akceptację przez innych członków zespołu.
+
+5. Jeśli chesz powrócić do gałęzi Master `git checkout master`
+
+Teraz możesz utworzyć kolejną gałąź wracając do punktu 1 i dodać nową funkcjonalność, nowy level lub jeszcze więcej eksplozji.

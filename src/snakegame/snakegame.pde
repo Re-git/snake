@@ -36,11 +36,7 @@ void draw()
   color_under_snake = get((int)snake.position.x, (int)snake.position.y);
   if (red(color_under_snake) > 200 )
   {
-    fill(255);
-    textSize(100);
-    textAlign(CENTER);
-    text("GAME OVER", width/2, height/2);
-    noLoop();
+    game_over();
   }
 
 //dodałem border collision ~Kacper

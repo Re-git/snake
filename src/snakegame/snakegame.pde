@@ -84,5 +84,8 @@ void game_over()
     textSize(100);
     textAlign(CENTER);
     text("GAME OVER", width/2, height/2);
+    textSize(50);
+    text("Your score:", width/2, 400);
+    text(punkty, width/2, 480);
     noLoop();
 }

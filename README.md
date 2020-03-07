@@ -1,13 +1,19 @@
 # Snake
 The most amazing Snake game ever
 
+## Tutoriale i dokumentacja
+
+1. [Coding Train](https://www.youtube.com/watch?v=-f0WEitGmiw&list=PLRqwX-V7Uu6YB9x6f23CBftiyx0u_5sO9&index=1) ma sporo sporą bibliotekę filmów tłumaczących w bardzo przystępny sposób jak zrobić przeróżne efekty przy pomocy processing (animacje, dzwieki, fizyka, sztuczna inteligencja, multiplayer itd)
+2. https://processing.org/tutorials/
+3. [Referencja](https://processing.org/reference/) spis wszystkich dostepnych funkcji w bibliotece Processing wraz z przykładami użycia
+
 ## Wymagania do pracy nad projektem:
 
 1. Zainstaluj Processing: https://processing.org/download/
 2. Zaloguj się na swój github.
 3. Wyślij mi wiadomość ze swoją nazwą konta na github to dodam cię jako "collaborator".
 4. Jeśli masz fajny pomysł co dodać do naszej gry napisz o tym w Issues.
-5. Jeśli nie masz pojęcia jak używać Git zobacz jakiś tutorial. np: https://youtu.be/BCQHnlnPusY?t=282
+5. Jeśli nie masz pojęcia jak używać Git zobacz jakiś tutorial. np: [Github for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 6. zrób gałąź, dodaj nową funkcjonalność i poproś o pull request.
 
 ## Przykład jak to robić z konsoli(linia poleceń):

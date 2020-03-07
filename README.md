@@ -13,7 +13,7 @@ The most amazing Snake game ever
 2. Zaloguj się na swój github.
 3. Wyślij mi wiadomość ze swoją nazwą konta na github to dodam cię jako "collaborator".
 4. Jeśli masz fajny pomysł co dodać do naszej gry napisz o tym w Issues.
-5. Jeśli nie masz pojęcia jak używać Git zobacz jakiś tutorial. np: https://youtu.be/BCQHnlnPusY?t=282
+5. Jeśli nie masz pojęcia jak używać Git zobacz jakiś tutorial. np: [Github for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 6. zrób gałąź, dodaj nową funkcjonalność i poproś o pull request.
 
 ## Przykład jak to robić z konsoli(linia poleceń):

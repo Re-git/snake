@@ -1,16 +1,31 @@
 class Snake
 {
+  ArrayList<PVector> tail = new ArrayList<PVector>();
   PVector position = new PVector(100, 100);
   PVector velocity = new PVector(0, 0);
   boolean alive = true;
 
-  void move() {
+  Snake(int length)
+  {
+    for (int i = 0; i < length; ++i) {
+      tail.add(new PVector(position.x,position.y));
+    }
+  }
+
+  void update() {
     position.add(velocity);
+    tail.add(0,new PVector(position.x, position.y));
+    tail.remove(tail.size()-1);
   }
 
   void draw() {
+    noStroke();
     fill(0, 255, 0);
-    rect(position.x, position.y, 5, 5);
+    // Rysujemy snake'a
+    for (int i = 0; i < tail.size(); ++i) {
+      rect(tail.get(i).x, tail.get(i).y, 2, 2);
+    }
+    
   }
 
   boolean collide_with_red()

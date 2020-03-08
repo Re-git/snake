@@ -5,8 +5,9 @@ enum Game_state {start_screen, game, game_over};
 Game_state game_state = Game_state.start_screen;
 int punkty = 0;
 int ilosc_malp = 50;
+int dlugosc_poczatkowa_sneka = 80;
 Malpa[] malpy = new Malpa[ilosc_malp];
-Snake snake = new Snake();
+Snake snake = new Snake(dlugosc_poczatkowa_sneka);
 color color_under_snake;
 
 // Funkcja setup jest wykonywana 1 raz na początku programu
@@ -14,6 +15,7 @@ void setup()
 {
   // rozdzielczosc okna gry
   size(960, 640);
+  rectMode(CENTER);
   // poczatkowy kolor tla
   background(50);
   // tworzymy obiekty Malpa w pętli w ilosci ilosc_malp
@@ -38,8 +40,8 @@ void draw()
 
     if (snake.collide_with_red()) {game_state = Game_state.game_over;}
     if(snake.collide_with_border()) {game_state = Game_state.game_over;}
+    snake.update();
     snake.draw();
-    snake.move();
     draw_points();
   }
   break;
@@ -84,15 +86,15 @@ void keyPressed()
 {
   if (keyCode == UP) {
     snake.velocity.x = 0;
-    snake.velocity.y = -2;
+    snake.velocity.y = -4;
   } else if (keyCode == DOWN) {
     snake.velocity.x = 0;
-    snake.velocity.y = 2;
+    snake.velocity.y = 4;
   } else if (keyCode == LEFT) {
-    snake.velocity.x = -2;
+    snake.velocity.x = -4;
     snake.velocity.y = 0;
   } else if (keyCode == RIGHT) {
-    snake.velocity.x = 2;
+    snake.velocity.x = 4;
     snake.velocity.y = 0;
   }
   else {

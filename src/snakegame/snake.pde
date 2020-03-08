@@ -42,7 +42,7 @@ class Snake
 
   boolean collide_with_border()
   {
-    if (snake.position.x < 0 | snake.position.x > width | snake.position.y < 0 | snake.position.y > width)
+    if (snake.position.x < 0 | snake.position.x > width | snake.position.y < 0 | snake.position.y > height)
     {
       return true;
     }
